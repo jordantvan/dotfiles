@@ -10,6 +10,6 @@ ln -sf $CHECKOUT_PATH/bash_aliases ~/.bash_aliases
 
 mkdir -p ~/.config
 mkdir -p ~/.vim
+mkdir -p ~/.vim/colors
 ln -sf $CHECKOUT_PATH/vimrc ~/.vimrc
-ln -sf ~/.vim ~/.config/nvim
-ln -sf $CHECKOUT_PATH/vimrc ~/.config/nvim/init.vim
+ln -sf $CHECKOUT_PATH/xoria256.vim ~/.vim/colors/xoria256.vim
